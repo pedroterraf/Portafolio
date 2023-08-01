@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+  body::-webkit-scrollbar-track {
+    @apply bg-slate-400;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #f9b82c;
+    border: 3px solid #f9b82c;
+    border-radius: 10px;
+  }
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 255, 0.8),
+        hsla(242, 74%, 61%, 0.8)
+    )!important;
+}
+
+:root {
+  --animate-delay: 0.25s;
+  --animate-duration: 1.15s;
+}
