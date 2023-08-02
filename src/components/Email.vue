@@ -2,7 +2,7 @@
     <div name="email" className="hidden md:flex fixed flex-col bottom-[410px] w-full">
         <ul className="flex fixed right-2">
             <li>
-                <a className='flex justify-between items-center text-[#f9b82c] dark:text-white animate__animated animate__slideInRight' href='mailto:juampi.parzybal@gmail.com' target='_blank' rel="noreferrer"> 
+                <a className='flex justify-between items-center text-[#f9b82c] dark:text-white animate__animated animate__slideInRight' href='mailto:pedroterraf@gmail.com' target='_blank' rel="noreferrer"> 
                    <p :style="{'writingMode': 'vertical-rl'}" className=" text-sm hover:text-pink-600 duration-300">pedroterraf@gmail.com</p>
                 </a>
             </li>
