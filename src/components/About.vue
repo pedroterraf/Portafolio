@@ -29,14 +29,14 @@ export default {
             eng: {
                 section: 'About',
                 title: 'Nice to meet you. Please take a look around.',
-                text: 'Since I was very young, I have been interested in technology. At the age of 11, I built my first PC. I enjoy playing video games, meeting new people, and facing challenges that put my skills to the test.',
-                subtext: "To date, I have completed 2 full stack projects in Henry's bootcamp, and I continue to seek new challenges to improve my skills. If you are looking for a collaborator or recruiting new talent, feel free to contact me!"
+                text: 'Since I was a child, I have always grown up with the computer. At the age of 12, I had already managed to create 2 servers in different online games. At 13, I became interested in starting to develop, and at the age of 23, I resumed a career focused on programming. Currently, I have completed 2 internships and sold 1 freelance project. On the other hand, I pursued Civil Engineering for several years but decided to switch to Systems Engineering, which I will be starting next year in 2024 with several credits already completed.',
+                subtext: "I continue to seek new challenges to improve my skills. If you are looking for a collaborator or recruiting new talent, feel free to contact me!"
             },
             es: {
                 section: 'Sobre mi',
                 title: '¡Siéntete libre de explorar mi portafolio!',
-                text: 'Desde muy pequeño estuve interesado en la tecnología. A los 11 años, armé mi primera PC. Me gustan los videojuegos, conocer nuevas personas y enfrentar desafíos que pongan a prueba mis habilidades.',
-                subtext: 'A la fecha, he completado 2 proyectos full stack en el bootcamp de Henry y sigo buscando nuevos desafíos para mejorar mis habilidades. Si estás buscando un colaborador o un nuevo recluta, ¡no dudes en contactarme!',
+                text: 'Desde chico, siempre me crié con la computadora. A los 12 años, ya había logrado crear 2 servidores en juegos diferentes abiertos en línea. A los 13, me interesó comenzar a desarrollar, y a los 23 años retomé una carrera enfocada en la programación. Actualmente, he realizado 2 prácticas laborales y 1 proyecto freelance que ya fue vendido. Por otro lado, cursé Ingeniería Civil durante varios años, pero decidí cambiarme a Ingeniería en Sistemas, la cual comenzaría el año que viene en 2024 con varias equivalencias ya aprobadas.',
+                subtext: 'Sigo buscando nuevos desafíos para mejorar mis habilidades. Si estás buscando un colaborador o un nuevo recluta, ¡no dudes en contactarme!',
             },
             isVisible: false,
         }
