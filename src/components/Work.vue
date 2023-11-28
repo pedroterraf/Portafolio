@@ -80,6 +80,7 @@
                 </div>
             </div>
         </div>
+
         <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-in">
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://somosedison.com/' target='_blank' rel="noreferrer">
                 <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Edison + ')'}"/>
@@ -117,6 +118,7 @@
                 </div>
             </div>
         </div>
+
         <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-in">
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://somosedison.com/' target='_blank' rel="noreferrer">
                 <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Edison + ')'}"/>
@@ -167,33 +169,55 @@ export default {
         return {
             Edison,
             Countries,
+            Munia,
+            IndianCo,
             eng: {
                 title: 'Work',
                 subtitle: '// Check out some of my recent work',
                 work01: {
                     title: 'Countries app',
-                    subtitle: 'Featured Project',
+                    subtitle: 'Project',
                     description: 'Project of all the countries in the world. On the home page, I fetched all the countries from an API along with their respective filters, pagination, and search bar to find the desired country as quickly as possible. Then, there is a detail page for each country that displays the specific details, and it also includes their respective activities created through a form with appropriate validations.'
                 },
                 work02: {
                     title: 'Edison',
-                    subtitle: 'Featured Project',
+                    subtitle: 'Work experience',
                     description: 'During my internship at Edison company, I had the opportunity to participate in the development of a new version of their website using various technologies (ReactJs, Nodejs, Airtable, Express, Bootstrap, Tailwind). In this project, we worked on implementing payment gateways with both national and international methods. We created the Marketplace and added sections such as forms with their respective validations, as well as informational pages. Additionally, we successfully applied the corresponding design to all the different components of the site.'
                 },
+                work03: {
+                    title: 'Munia',
+                    subtitle: 'Work experience',
+                    description: 'In my work experience at Munia company, we successfully developed a platform from the ground up. The goal was to allow users to log in and register as a company, patient, professional, or administrator. I implemented the Login, Register, tables for rescheduling, confirming or rejecting appointments, a Dashboard displaying all statistics, and the connection to the backend using Redux Toolkit. Additionally, I fixed certain components that were incomplete or re-created them.'
+                },
+                work04: {
+                    title: 'Indian&Co',
+                    subtitle: 'Work experience',
+                    description: 'This project is characterized by the implementation of a database, a secure payment gateway, efficient forms, an attractive marketplace, an intuitive shopping cart, login and registration functions, a comprehensive dashboard for page management, and a wide variety of components and views. These achievements span from data management to user experience, providing a comprehensive and versatile system.'
+                }
             }, 
             es: {
                 title: 'Proyectos',
                 subtitle: '// Mira algunos de mis proyectos más recientes',
                 work01: {
                     title: 'Aplicación de paises',
-                    subtitle: 'Proyecto Destacado',
+                    subtitle: 'Proyecto',
                     description: 'Proyecto de todos los paises del mundo, en el home me traje todos los paises de una api y con sus respectivos filtros, paginado y barra de busqueda para encontrar el pais que buscas lo antes posible. Luego un detail de cada pais que aparece los detalles de cada uno con sus respectivas activides creadas en un formulario con sus respectivas validaciones.'
                 },
                 work02: {
                     title: 'Edison',
-                    subtitle: 'Proyecto Destacado',
+                    subtitle: 'Práctica laboral',
                     description: 'Durante mi pasantía laboral en la empresa de Edison, tuve la oportunidad de participar en el desarrollo de una nueva versión de su sitio web utilizando diferentes tecnologías (ReactJs, Nodejs, Airtable, Express, Bootstrap, Tailwind ). En este proyecto, trabajamos en la implementación de pasarelas de pago con métodos nacionales e internacionales, creamos el Marketplace y añadimos secciones como formularios con sus respectivas validaciones, así como páginas informativas. También logramos aplicar su diseño correspondiente a todos los diferentes componentes del sitio.'
                 },
+                work03: {
+                    title: 'Munia',
+                    subtitle: 'Práctica laboral',
+                    description: 'En mi práctica laboral en la empresa Munia, logramos llevar a cabo una plataforma desde las bases. La idea era poder ingresar y registrarse tanto como empresa, paciente, profesional o administrador. Llevé adelante el Login, Register, tablas para reprogramar, confirmar o rechazar turnos, Dashboard de todas las estadísticas, la conexión con el backend de la mano de Redux Toolkit, arreglar ciertos componentes dejados a medias o volverlos a hacer.'
+                },
+                work04: {
+                    title: 'Indian&Co',
+                    subtitle: 'Proyecto freelance (vendido)',
+                    description: 'Este proyecto se caracteriza por la implementación de una base de datos, una segura pasarela de pagos, formularios eficientes, un atractivo marketplace, un carrito de compras intuitivo, funciones de login y registro, un completo dashboard para administrar la página y una amplia variedad de componentes y vistas. Estos logros abarcan desde la gestión de datos hasta la experiencia del usuario, proporcionando un sistema integral y versátil.'
+                }
             },
         }
     }, 
