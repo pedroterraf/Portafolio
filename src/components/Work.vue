@@ -80,6 +80,43 @@
                 </div>
             </div>
         </div>
+        <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-in">
+            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://somosedison.com/' target='_blank' rel="noreferrer">
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Edison + ')'}"/>
+            </a>
+            <div className="flex flex-col md:w-[60%] py-4">
+                <div className="flex flex-col relative top-[-35px] text-right">
+                    <span className="text-[#f9b82c] dark:text-[#64ffda] text-sm font-medium">{{ text.work02.subtitle }}</span>
+                    <h3 className=" text-2xl font-semibold">{{ text.work02.title }}</h3>
+                </div>
+                <div className="md:p-4 md:w-[130%] relative md:right-[30%]  rounded md:bg-slate-300 dark:md:bg-[#112240] z-10">
+                    <p className=" text-sm text-justify font-medium dark:font-normal">
+                        {{ text.work02.description }}
+                    </p>
+                </div>
+                <div className="flex md:w-[130%] relative md:right-[30%] z-10 pt-4">
+                    <ul className="flex flex-wrap md:justify-end text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
+                        <li className="md:pl- pr-4 md:pr-0 dark:text-[#06a608]"> <p>React</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608] text-shadow: 8px 8px 8px rgb(0, 0, 0);"> <p>Redux toolkit</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Express</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Nodejs</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Css</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Sequelize</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Bootstrap</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Tailwind</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Airtable</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Stripe</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Mercado Pago</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Deploy Amazon</p> </li>
+                    </ul>
+                </div>
+                <div className="flex relative bottom-[-20px] justify-end">
+                    <a className='flex justify-between items-center dark:text-white pl-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://somosedison.com/' target='_blank' rel="noreferrer"> 
+                        <fa icon="arrow-up-right-from-square" class="fa-lg" />
+                    </a>
+                </div>
+            </div>
+        </div>
       </div>
   </div>
 </template>
