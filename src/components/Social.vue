@@ -32,7 +32,7 @@
 export default {
     computed: {
         link(){
-            return this.$store.state.lang === 'en' ? 'https://drive.google.com/file/d/11j2N2guAK4qeVhqynUgYsoZrGQjYGc_9/view?usp=drive_link' : 'https://drive.google.com/file/d/11j2N2guAK4qeVhqynUgYsoZrGQjYGc_9/view?usp=drive_link'
+            return this.$store.state.lang === 'en' ? 'https://drive.google.com/file/d/1QWT3PNZFeVZr2JIDU3gGjjZstHrNNzpy/view?usp=sharing' : 'https://drive.google.com/file/d/1QWT3PNZFeVZr2JIDU3gGjjZstHrNNzpy/view?usp=sharing'
         }
     }
 }
