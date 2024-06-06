@@ -35,7 +35,7 @@ export default {
             es: {
                 section: 'Sobre mi',
                 title: '¡Siéntete libre de explorar mi portafolio!',
-                text: 'Desde chico, siempre me crié con la computadora. A los 12 años, ya había logrado crear 2 servidores en juegos diferentes abiertos en línea. A los 13, me interesó comenzar a desarrollar, y a los 23 años retomé una carrera enfocada en la programación. Actualmente, he realizado 2 prácticas laborales y 1 proyecto freelance que ya fue vendido. Por otro lado, cursé Ingeniería Civil durante varios años, pero decidí cambiarme a Ingeniería en Sistemas, la cual comenzaría el año que viene en 2024 con varias equivalencias ya aprobadas.',
+                text: 'Desde chico, siempre me crié con la computadora. A los 12 años, ya había logrado crear 2 servidores en juegos diferentes abiertos en línea. A los 13, me interesó comenzar a desarrollar, y a los 23 años retomé una carrera enfocada en la programación. Actualmente estoy trabajando desde enero del 2024, anteriormente he realizado 3 prácticas laborales y 1 proyecto freelance que ya fue vendido. Por otro lado, cursé Ingeniería durante varios años',
                 subtext: 'Sigo buscando nuevos desafíos para mejorar mis habilidades. Si estás buscando un colaborador o un nuevo recluta, ¡no dudes en contactarme!',
             },
             isVisible: false,
