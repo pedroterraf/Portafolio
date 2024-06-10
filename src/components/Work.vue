@@ -10,7 +10,7 @@
 
         <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-left">
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://seguromovil.com.ar/' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Assurant + ')'}"/>
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Assurant + ')', 'background-position': 'center center'}"/>
             </a>
             <div className="flex flex-col md:w-[60%] py-4">
                 <div className="flex flex-col relative top-[-35px] text-right">
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/pedroterraf/Countries-PI.git' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Countries + ')'}"/>
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Countries + ')', 'background-position': 'center center'}"/>
             </a>
         </div>
 
@@ -151,7 +151,7 @@
 
         <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-left">
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Indian + ')'}"/>
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Indian + ')', 'background-position': 'center center'}"/>
             </a>
             <div className="flex flex-col md:w-[60%] py-4">
                 <div className="flex flex-col relative top-[-35px] text-right">
