@@ -1,5 +1,5 @@
 <template>
-  <div id="navbar" className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-100 dark:bg-[#0a192f] text-[#233554] font-semibold dark:text-gray-300 animate__lightSpeedInRight z-20 duration-300'>
+  <div id="navbar" className='fixed w-full h-[80px] flex justify-between items-center px-4 text-[#233554] dark:bg-gradient-to-b from-[#ffffff2f] to-transparent bg-gradient-to-b from-[#00000050] to-transparent font-semibold dark:text-gray-300 animate__lightSpeedInRight z-20 duration-300'>
       <div className="w-[10%]">
         <img :src=Logo alt="Brand Logo" className="w-[60px]"/>
       </div>

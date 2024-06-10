@@ -20,6 +20,10 @@
                       <p className='mt-4'>JAVASCRIPT</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='typescript' alt="HTML icon" />
+                      <p className='mt-4'>Typescript</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
                       <img className='w-20 mx-auto' :src='ReactImg' alt="HTML icon" />
                       <p className='mt-4'>REACT</p>
                   </div>
@@ -43,6 +47,50 @@
                       <img className='w-20 mx-auto' :src='PostgreSQL' alt="HTML icon" />
                       <p className='mt-4'>POSTGRESQL</p>
                   </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='NextJs' alt="HTML icon" />
+                      <p className='mt-4'>Next</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='vitejs' alt="HTML icon" />
+                      <p className='mt-4'>Vite</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='bootstrap' alt="HTML icon" />
+                      <p className='mt-4'>Bootstrap</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='materialui' alt="HTML icon" />
+                      <p className='mt-4'>Material-UI</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='sass' alt="HTML icon" />
+                      <p className='mt-4'>Sass</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='express' alt="HTML icon" />
+                      <p className='mt-4'>Express</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='sequelize' alt="HTML icon" />
+                      <p className='mt-4'>Sequelize</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='aws' alt="HTML icon" />
+                      <p className='mt-4'>Aws</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='vercel' alt="HTML icon" />
+                      <p className='mt-4'>Vercel</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='prisma' alt="HTML icon" />
+                      <p className='mt-4'>Prisma</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto' :src='storybook' alt="HTML icon" />
+                      <p className='mt-4'>Storybooks</p>
+                  </div>
               </div>
           </div>
         </div>
@@ -58,6 +106,18 @@ import Node from '../assets/node.png';
 import Git from '../assets/git.png';
 import Redux from '../assets/redux.png';
 import PostgreSQL from '../assets/postgres.png';
+import NextJs from '../assets/nextjs.png';
+import express from '../assets/express.png';
+import vitejs from '../assets/vitejs.png';
+import typescript from '../assets/typescript.png';
+import bootstrap from '../assets/bootstrap.png';
+import materialui from '../assets/materialui.png';
+import sass from '../assets/sass.png';
+import sequelize from '../assets/sequelize.png';
+import aws from '../assets/aws.png';
+import prisma from '../assets/prisma.png';
+import vercel from '../assets/vercel.png';
+import storybook from '../assets/storybook.png';
 
 export default {
     data() {
@@ -70,7 +130,19 @@ export default {
             Git,
             Redux,
             PostgreSQL,
-            VueImg, 
+            VueImg,
+            NextJs,
+            express,
+            vitejs,
+            typescript,
+            bootstrap,
+            materialui,
+            sass,
+            sequelize,
+            aws,
+            prisma,
+            vercel,
+            storybook,
             eng: {
                 title: 'Skills',
                 subtitle: '// These are the technologies I\'ve worked with',
