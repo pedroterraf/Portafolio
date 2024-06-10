@@ -8,88 +8,88 @@
     
               <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 font-bold dark:font-normal' data-aos="fade-in">
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='HTML' alt="HTML icon" />
+                      <img className='w-20 mx-auto h-30' :src='HTML' alt="HTML icon" />
                       <p className='mt-4'>HTML</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='CSS' alt="HTML icon" />
+                      <img className='w-20 mx-auto h-30' :src='CSS' alt="HTML icon" />
                       <p className='mt-4'>CSS</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='JavaScript' alt="HTML icon" />
-                      <p className='mt-4'>JAVASCRIPT</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='typescript' alt="HTML icon" />
-                      <p className='mt-4'>Typescript</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='ReactImg' alt="HTML icon" />
-                      <p className='mt-4'>REACT</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='VueImg' alt="HTML icon" />
-                      <p className='mt-4'>VUE</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='Git' alt="HTML icon" />
-                      <p className='mt-4'>GIT</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='Node' alt="HTML icon" />
-                      <p className='mt-4'>NODE JS</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='Redux' alt="HTML icon" />
-                      <p className='mt-4'>Redux</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='PostgreSQL' alt="HTML icon" />
-                      <p className='mt-4'>POSTGRESQL</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='NextJs' alt="HTML icon" />
-                      <p className='mt-4'>Next</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='vitejs' alt="HTML icon" />
-                      <p className='mt-4'>Vite</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='bootstrap' alt="HTML icon" />
-                      <p className='mt-4'>Bootstrap</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='materialui' alt="HTML icon" />
-                      <p className='mt-4'>Material-UI</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='sass' alt="HTML icon" />
+                      <img className='w-20 mx-auto h-30' :src='sass' alt="HTML icon" />
                       <p className='mt-4'>Sass</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='express' alt="HTML icon" />
+                      <img className='w-20 mx-auto h-30' :src='JavaScript' alt="HTML icon" />
+                      <p className='mt-4'>JAVASCRIPT</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='typescript' alt="HTML icon" />
+                      <p className='mt-4'>Typescript</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='ReactImg' alt="HTML icon" />
+                      <p className='mt-4'>REACT</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='VueImg' alt="HTML icon" />
+                      <p className='mt-4'>VUE</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='NextJs' alt="HTML icon" />
+                      <p className='mt-4'>Next</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='vitejs' alt="HTML icon" />
+                      <p className='mt-4'>Vite</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='Redux' alt="HTML icon" />
+                      <p className='mt-4'>Redux</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='bootstrap' alt="HTML icon" />
+                      <p className='mt-4'>Bootstrap</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='materialui' alt="HTML icon" />
+                      <p className='mt-4'>Material-UI</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='Git' alt="HTML icon" />
+                      <p className='mt-4'>GIT</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='storybook' alt="HTML icon" />
+                      <p className='mt-4'>Storybooks</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='Node' alt="HTML icon" />
+                      <p className='mt-4'>NODE JS</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='PostgreSQL' alt="HTML icon" />
+                      <p className='mt-4'>POSTGRESQL</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='express' alt="HTML icon" />
                       <p className='mt-4'>Express</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='sequelize' alt="HTML icon" />
+                      <img className='w-20 mx-auto h-30' :src='sequelize' alt="HTML icon" />
                       <p className='mt-4'>Sequelize</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='aws' alt="HTML icon" />
-                      <p className='mt-4'>Aws</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='vercel' alt="HTML icon" />
-                      <p className='mt-4'>Vercel</p>
-                  </div>
-                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='prisma' alt="HTML icon" />
+                      <img className='w-20 mx-auto h-30' :src='prisma' alt="HTML icon" />
                       <p className='mt-4'>Prisma</p>
                   </div>
                   <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' :src='storybook' alt="HTML icon" />
-                      <p className='mt-4'>Storybooks</p>
+                      <img className='w-20 mx-auto h-30' :src='aws' alt="HTML icon" />
+                      <p className='mt-4'>Aws</p>
+                  </div>
+                  <div className='bg-slate-200 dark:bg-[#0a192f] shadow-md shadow-[#040c16] py-2 hover:scale-110 duration-500'>
+                      <img className='w-20 mx-auto h-30' :src='vercel' alt="HTML icon" />
+                      <p className='mt-4'>Vercel</p>
                   </div>
               </div>
           </div>
