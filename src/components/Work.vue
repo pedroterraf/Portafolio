@@ -8,22 +8,19 @@
             <p className='py-3 text-[#112240] font-medium dark:text-[#f9b82c] dark:font-normal' data-aos="fade-in">{{ text.subtitle }}</p>
         </div>
 
-        <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-left">
-            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://seguromovil.com.ar/' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Assurant + ')', 'background-position': 'center center'}"/>
-            </a>
+        <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-right">
             <div className="flex flex-col md:w-[60%] py-4">
-                <div className="flex flex-col relative top-[-35px] text-right">
+                <div className="flex flex-col relative top-[-35px]">
                     <span className="text-[#f9b82c] dark:text-[#64ffda] text-sm font-medium">{{ text.work05.subtitle }}</span>
                     <h3 className=" text-2xl font-semibold">{{ text.work05.title }}</h3>
                 </div>
-                <div className="md:p-4 md:w-[130%] relative md:right-[30%]  rounded md:bg-slate-300 dark:md:bg-[#112240] z-10">
+                <div className="md:p-4 md:w-[130%] rounded md:bg-slate-300 dark:md:bg-[#112240] z-10">
                     <p className=" text-sm text-justify font-medium dark:font-normal">
                         {{ text.work05.description }}
                     </p>
                 </div>
-                <div className="flex md:w-[130%] relative md:right-[30%] z-10 pt-4">
-                    <ul className="flex flex-wrap md:justify-end text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
+                <div className="flex md:w-[130%] z-10 pt-4">
+                    <ul className="flex flex-wrap text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
                         <li className="md:pl- pr-4 md:pr-0 dark:text-[#06a608]"> <p>React + Vite</p> </li>
                         <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608] text-shadow: 8px 8px 8px rgb(0, 0, 0);"> <p>React hooks</p> </li>
                         <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Css</p> </li>
@@ -35,46 +32,14 @@
                         <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Google Captcha</p> </li>
                     </ul>
                 </div>
-                <div className="flex relative bottom-[-20px] justify-end">
-                    <a className='flex justify-between items-center dark:text-white pl-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://seguromovil.com.ar/' target='_blank' rel="noreferrer"> 
-                        <fa icon="arrow-up-right-from-square" class="fa-lg" />
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-right">
-            <div className="flex flex-col md:w-[60%] py-4">
-                <div className="flex flex-col relative top-[-35px]">
-                    <span className="text-[#f9b82c] dark:text-[#64ffda] text-sm font-medium">{{ text.work01.subtitle }}</span>
-                    <h3 className=" text-2xl font-semibold">{{ text.work01.title }}</h3>
-                </div>
-                <div className="md:p-4 md:w-[130%] rounded md:bg-slate-300 dark:md:bg-[#112240] z-10">
-                    <p className=" text-sm text-justify font-medium dark:font-normal">
-                        {{ text.work01.description }}
-                    </p>
-                </div>
-                <div className="flex md:w-[130%] z-10 pt-4">
-                    <ul className="flex flex-wrap text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
-                        <li className="pr-4 dark:text-[#06a608]"> <p>React</p> </li>
-                        <li className="pr-4 dark:text-[#06a608]"> <p>Redux</p> </li>
-                        <li className="pr-4 dark:text-[#06a608]"> <p>Node</p> </li>
-                        <li className="pr-4 dark:text-[#06a608]"> <p>Express</p> </li>
-                        <li className="pr-4 dark:text-[#06a608]"> <p>PostgreSQL</p> </li>
-                        <li className="pr-4 dark:text-[#06a608]"> <p>Sequelize</p> </li>
-                    </ul>
-                </div>
                 <div className="flex relative bottom-[-20px]">
-                    <a className='flex justify-between items-center dark:text-white pr-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://github.com/pedroterraf/Countries-PI.git' target='_blank' rel="noreferrer"> 
-                        <fa :icon="['fab', 'github']" class="fa-lg" />
-                    </a>
-<!--                     <a className='flex justify-between items-center dark:text-white pr-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://github.com/parzybaal/PI-Dogs-main' target='_blank' rel="noreferrer"> 
+                    <a className='flex justify-between items-center dark:text-white pr-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://seguromovil.com.ar/' target='_blank' rel="noreferrer"> 
                         <fa icon="arrow-up-right-from-square" class="fa-lg" />
-                    </a> -->
+                    </a>
                 </div>
             </div>
-            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/pedroterraf/Countries-PI.git' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Countries + ')', 'background-position': 'center center'}"/>
+            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden flex-column" href='https://seguromovil.com.ar/' target='_blank' rel="noreferrer">
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Assurant + ')'}"/>
             </a>
         </div>
 
@@ -150,7 +115,7 @@
         </div>
 
         <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-left">
-            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" target='_blank' rel="noreferrer">
+            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/indianandco/Indian_Co' target='_blank' rel="noreferrer">
                 <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300 bg-center" :style="{'background-image': 'url(' + Indian + ')'}"/>
             </a>
             <div className="flex flex-col md:w-[60%] py-4">
@@ -182,7 +147,76 @@
                     </ul>
                 </div>
                 <div className="flex relative bottom-[-20px] justify-end">
-                    <a className='flex justify-between items-center dark:text-white pl-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://www.indianandco.com.ar/' target='_blank' rel="noreferrer"> 
+                    <a className='flex justify-between items-center dark:text-white pl-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://github.com/indianandco/Indian_Co' target='_blank' rel="noreferrer"> 
+                        <fa :icon="['fab', 'github']" class="fa-lg" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-right">
+            <div className="flex flex-col md:w-[60%] py-4">
+                <div className="flex flex-col relative top-[-35px]">
+                    <span className="text-[#f9b82c] dark:text-[#64ffda] text-sm font-medium">{{ text.work01.subtitle }}</span>
+                    <h3 className=" text-2xl font-semibold">{{ text.work01.title }}</h3>
+                </div>
+                <div className="md:p-4 md:w-[130%] rounded md:bg-slate-300 dark:md:bg-[#112240] z-10">
+                    <p className=" text-sm text-justify font-medium dark:font-normal">
+                        {{ text.work01.description }}
+                    </p>
+                </div>
+                <div className="flex md:w-[130%] z-10 pt-4">
+                    <ul className="flex flex-wrap text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
+                        <li className="pr-4 dark:text-[#06a608]"> <p>React</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Redux</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Node</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Express</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>PostgreSQL</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Sequelize</p> </li>
+                    </ul>
+                </div>
+                <div className="flex relative bottom-[-20px]">
+                    <a className='flex justify-between items-center dark:text-white pr-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://github.com/pedroterraf/Countries-PI.git' target='_blank' rel="noreferrer"> 
+                        <fa :icon="['fab', 'github']" class="fa-lg" />
+                    </a>
+                </div>
+            </div>
+            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/pedroterraf/Countries-PI.git' target='_blank' rel="noreferrer">
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Countries + ')', 'background-position': 'center center'}"/>
+            </a>
+        </div>
+
+        <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-left">
+            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/indianandco/Indian_Co' target='_blank' rel="noreferrer">
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300 bg-top" :style="{'background-image': 'url(' + PlayMemory + ')'}"/>
+            </a>
+            <div className="flex flex-col md:w-[60%] py-4">
+                <div className="flex flex-col relative top-[-35px] text-right">
+                    <span className="text-[#f9b82c] dark:text-[#64ffda] text-sm font-medium">{{ text.work06.subtitle }}</span>
+                    <h3 className=" text-2xl font-semibold">{{ text.work06.title }}</h3>
+                </div>
+                <div className="md:p-4 md:w-[130%] relative md:right-[30%]  rounded md:bg-slate-300 dark:md:bg-[#112240] z-10">
+                    <p className=" text-sm text-justify font-medium dark:font-normal">
+                        {{ text.work06.description }}
+                    </p>
+                </div>
+                <div className="flex md:w-[130%] relative md:right-[30%] z-10 pt-4">
+                    <ul className="flex flex-wrap md:justify-end text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
+                        <li className="md:pl- pr-4 md:pr-0 dark:text-[#06a608]"> <p>React</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608] text-shadow: 8px 8px 8px rgb(0, 0, 0);"> <p>Vite</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>React Hooks</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Html</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Css</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Supabase</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Vercel</p> </li>
+                        <li className="md:pl-4 pr-4 md:pr-0 dark:text-[#06a608]"> <p>Material-UI</p> </li>
+                    </ul>
+                </div>
+                <div className="flex relative bottom-[-20px] justify-end">
+                    <a className='flex justify-between items-center dark:text-white pl-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://github.com/pedroterraf/play-memory' target='_blank' rel="noreferrer"> 
+                        <fa :icon="['fab', 'github']" class="fa-lg" />
+                    </a>
+                    <a className='flex justify-between items-center dark:text-white pl-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://playmemory-smoky.vercel.app' target='_blank' rel="noreferrer"> 
                         <fa icon="arrow-up-right-from-square" class="fa-lg" />
                     </a>
                 </div>
@@ -198,6 +232,7 @@ import Assurant from '../assets/Assurant.png'
 import Countries from '../assets/PI-COUNTRIES.png'
 import Munia from '../assets/Munia.png'
 import Indian from '../assets/Indian.png'
+import PlayMemory from '../assets/MemoryGame.png'
 
 export default {
     data() {
@@ -207,6 +242,7 @@ export default {
             Munia,
             Indian,
             Assurant,
+            PlayMemory,
             eng: {
                 title: 'Work',
                 subtitle: '// Check out some of my recent work',
@@ -234,6 +270,11 @@ export default {
                     title: 'Assurant',
                     subtitle: 'Work',
                     description: 'Summary of the project for the Movistar company on mobile phone insurance. In general areas, it includes forms for registration with certain validations, self-manageable frequently asked questions from the database, and in state consultation, a status bar for product tracking with its details and for payment with Mercado Pago integration.'
+                },
+                work06: {
+                    title: 'Play Memory',
+                    subtitle: 'Project',
+                    description: 'In this project, which I did on a weekend day, I wanted to create a game with a scalable system of cards, points, ranking, and a timer so that people could compete, so to speak. I didnt focus much on the CSS but rather on the logic, as it is a game made purely with JavaScript and CSS code, without libraries like Bootstrap, Material UI, etc.'
                 }
             }, 
             es: {
@@ -263,6 +304,11 @@ export default {
                     title: 'Assurant',
                     subtitle: 'Trabajo',
                     description: 'Resumen del proyecto para la compañía de Movistar sobre aseguradora de celulares. En ámbitos generales cuenta con formularios para registros por ciertas validaciones, preguntas frecuentes autogestionables desde la base de datos y en consulta de estados una barra de estados para el seguimiento del producto con sus detalles y para pagar con la integración de Mercado Pago.'
+                },
+                work06: {
+                    title: 'Play Memory',
+                    subtitle: 'Proyecto',
+                    description: 'En este proyecto lo hice un dia del fin de semana, queria hacer un juego con un sistema escalable de cartas, puntos, ranking y con timer para que se pueda competir por asi decirlo, no me enfoque tanto en el css sino mas en la logica ya que es un juego hecho a puro código javascript y css, sin librerias como son bootstrap, material ui, etc.'
                 }
             },
         }
