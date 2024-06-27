@@ -316,7 +316,7 @@ export default {
                     description: 'In this project, which I did on a weekend day, I wanted to create a game with a scalable system of cards, points, ranking, and a timer so that people could compete, so to speak. I didnt focus much on the CSS but rather on the logic, as it is a game made purely with JavaScript and CSS code, without libraries like Bootstrap, Material UI, etc.'
                 },
                 work07: {
-                    title: 'Face Ia',
+                    title: 'AI recognition',
                     subtitle: 'Project',
                     description: 'AI-based facial recognition project designed to detect and analyze multiple attributes of the human face. This system is capable of accurately capturing the position of the face, determining the persons age and gender, and identifying a variety of emotions.'
                 },
@@ -355,7 +355,7 @@ export default {
                     description: 'En este proyecto lo hice un dia del fin de semana, queria hacer un juego con un sistema escalable de cartas, puntos, ranking y con timer para que se pueda competir por asi decirlo, no me enfoque tanto en el css sino mas en la logica ya que es un juego hecho a puro código javascript y css, sin librerias como son bootstrap, material ui, etc.'
                 },
                 work07: {
-                    title: 'Face Ia',
+                    title: 'AI recognition',
                     subtitle: 'Proyecto',
                     description: 'Proyecto de reconocimiento facial basado en inteligencia artificial, diseñado para detectar y analizar múltiples atributos del rostro humano. Este sistema es capaz de captar con precisión la posición del rostro, determinar la edad y el género de la persona, así como identificar una variedad de emociones.'
                 },
