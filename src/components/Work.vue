@@ -182,7 +182,7 @@
                 </div>
             </div>
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/pedroterraf/Countries-PI.git' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Countries + ')', 'background-position': 'center center'}"/>
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-contain bg-no-repeat hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Countries + ')', 'background-position': 'center center'}"/>
             </a>
         </div>
 
@@ -222,6 +222,43 @@
                 </div>
             </div>
         </div>
+
+        <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-right">
+            <div className="flex flex-col md:w-[60%] py-4">
+                <div className="flex flex-col relative top-[-35px]">
+                    <span className="text-[#f9b82c] dark:text-[#64ffda] text-sm font-medium">{{ text.work07.subtitle }}</span>
+                    <h3 className=" text-2xl font-semibold">{{ text.work07.title }}</h3>
+                </div>
+                <div className="md:p-4 md:w-[130%] rounded md:bg-slate-300 dark:md:bg-[#112240] z-10">
+                    <p className=" text-sm text-justify font-medium dark:font-normal">
+                        {{ text.work07.description }}
+                    </p>
+                </div>
+                <div className="flex md:w-[130%] z-10 pt-4">
+                    <ul className="flex flex-wrap text-sm font-medium text-[#4a6087] dark:text-slate-400" :style="{'-webkit-text-stroke': '0.1px black'}">
+                        <li className="pr-4 dark:text-[#06a608]"> <p>React</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Vite</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Html&Css</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Face-Api</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>JavaScript</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Material-UI</p> </li>
+                        <li className="pr-4 dark:text-[#06a608]"> <p>Vercel</p> </li>
+                    </ul>
+                </div>
+                <div className="flex relative bottom-[-20px]">
+                    <a className='flex justify-between items-center dark:text-white pr-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://github.com/pedroterraf/Face-ia' target='_blank' rel="noreferrer"> 
+                        <fa :icon="['fab', 'github']" class="fa-lg" />
+                    </a>
+                    <a className='flex justify-between items-center dark:text-white pr-4 hover:text-pink-600 dark:hover:text-pink-600 duration-300' href='https://face-ia-five.vercel.app/' target='_blank' rel="noreferrer"> 
+                        <fa icon="arrow-up-right-from-square" class="fa-lg" />
+                    </a>
+                </div>
+            </div>
+            <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://face-ia-five.vercel.app/' target='_blank' rel="noreferrer">
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-contain bg-no-repeat hover:bg-transparent duration-300" :style="{'background-image': 'url(' + FaceIa + ')', 'background-position': 'center center'}"/>
+            </a>
+        </div>
+        
       </div>
   </div>
 </template>
@@ -233,6 +270,7 @@ import Countries from '../assets/PI-COUNTRIES.png'
 import Munia from '../assets/Munia.png'
 import Indian from '../assets/Indian.png'
 import PlayMemory from '../assets/MemoryGame.png'
+import FaceIa from '../assets/face-ia.jpg'
 
 export default {
     data() {
@@ -243,6 +281,7 @@ export default {
             Indian,
             Assurant,
             PlayMemory,
+            FaceIa,
             eng: {
                 title: 'Work',
                 subtitle: '// Check out some of my recent work',
@@ -275,7 +314,12 @@ export default {
                     title: 'Play Memory',
                     subtitle: 'Project',
                     description: 'In this project, which I did on a weekend day, I wanted to create a game with a scalable system of cards, points, ranking, and a timer so that people could compete, so to speak. I didnt focus much on the CSS but rather on the logic, as it is a game made purely with JavaScript and CSS code, without libraries like Bootstrap, Material UI, etc.'
-                }
+                },
+                work07: {
+                    title: 'Face Ia',
+                    subtitle: 'Project',
+                    description: 'AI-based facial recognition project designed to detect and analyze multiple attributes of the human face. This system is capable of accurately capturing the position of the face, determining the persons age and gender, and identifying a variety of emotions.'
+                },
             }, 
             es: {
                 title: 'Proyectos',
@@ -309,7 +353,12 @@ export default {
                     title: 'Play Memory',
                     subtitle: 'Proyecto',
                     description: 'En este proyecto lo hice un dia del fin de semana, queria hacer un juego con un sistema escalable de cartas, puntos, ranking y con timer para que se pueda competir por asi decirlo, no me enfoque tanto en el css sino mas en la logica ya que es un juego hecho a puro código javascript y css, sin librerias como son bootstrap, material ui, etc.'
-                }
+                },
+                work07: {
+                    title: 'Face Ia',
+                    subtitle: 'Proyecto',
+                    description: 'Proyecto de reconocimiento facial basado en inteligencia artificial, diseñado para detectar y analizar múltiples atributos del rostro humano. Este sistema es capaz de captar con precisión la posición del rostro, determinar la edad y el género de la persona, así como identificar una variedad de emociones.'
+                },
             },
         }
     }, 
