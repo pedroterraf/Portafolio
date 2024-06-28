@@ -39,13 +39,13 @@
                 </div>
             </div>
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden flex-column" href='https://seguromovil.com.ar/' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300" :style="{'background-image': 'url(' + Assurant + ')'}"/>
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-contain bg-no-repeat hover:bg-transparent duration-300 bg-right" :style="{'background-image': 'url(' + Assurant + ')'}"/>
             </a>
         </div>
 
         <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-left">
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://somosedison.com/' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300 bg-bottom" :style="{'background-image': 'url(' + Edison + ')'}"/>
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300 bg-top" :style="{'background-image': 'url(' + Edison + ')'}"/>
             </a>
             <div className="flex flex-col md:w-[60%] py-4">
                 <div className="flex flex-col relative top-[-35px] text-right">
@@ -110,13 +110,13 @@
                 </div>
             </div>
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300 bg-right" :style="{'background-image': 'url(' + Munia + ')'}"/>
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-contain bg-no-repeat hover:bg-transparent duration-300 bg-right" :style="{'background-image': 'url(' + Munia + ')'}"/>
             </a>
         </div>
 
         <div className='flex bg-slate-300 dark:bg-[#112240] bg-cover px-8 py-12 md:bg-transparent dark:md:bg-transparent md:p-0 mb-12' data-aos="fade-left">
             <a className="hidden md:flex w-[70%] h-[250px] my-auto z-0 overflow-hidden" href='https://github.com/indianandco/Indian_Co' target='_blank' rel="noreferrer">
-                <div className="bg md:flex w-full h-full my-auto z-0 bg-cover hover:bg-transparent duration-300 bg-center" :style="{'background-image': 'url(' + Indian + ')'}"/>
+                <div className="bg md:flex w-full h-full my-auto z-0 bg-contain bg-no-repeat hover:bg-transparent hover:bg-transparent duration-300 bg-center" :style="{'background-image': 'url(' + Indian + ')'}"/>
             </a>
             <div className="flex flex-col md:w-[60%] py-4">
                 <div className="flex flex-col relative top-[-35px] text-right">
