@@ -284,7 +284,7 @@ export default {
             FaceIa,
             eng: {
                 title: 'Work',
-                subtitle: '// Check out some of my recent work',
+                subtitle: '// Check out some of my recent work *My cv is more up-to-date.',
                 work01: {
                     title: 'Countries app',
                     subtitle: 'Project',
@@ -323,7 +323,7 @@ export default {
             }, 
             es: {
                 title: 'Proyectos',
-                subtitle: '// Mira algunos de mis proyectos más recientes',
+                subtitle: '// Mira algunos de mis proyectos más recientes *Mi cv está más actualizado',
                 work01: {
                     title: 'Aplicación de paises',
                     subtitle: 'Proyecto',
